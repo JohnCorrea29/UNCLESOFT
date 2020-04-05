@@ -1,0 +1,424 @@
+.pushbar{
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+.pushbar .btn-cerrar {
+	text-align: right;
+	transform: translateY(-109%);
+}
+
+.pushbar .btn-cerrar button {
+	background: none;
+	color: #808080;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.pushbar-menu a {
+	display: block;
+	color: #AAAAAA;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(112,112,112, .60);
+	font-weight: 300;
+	font-size: 18px;
+	transition: .3s ease color;
+}
+
+.pushbar-menu a:hover {
+	color: #fff;
+}
+
+.btn-menu {
+	border-radius: 50%;
+	border: 0.8px solid #000;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+a {
+	color: #fff;
+}
+
+hr {
+	background: #C2BCBC;
+}
+
+section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#banner {
+	margin-top: 50px;
+}
+
+#banner img {
+	width: 100%;
+	height: 200px;
+	opacity: 90%;
+
+}
+
+.logito {
+	width: 130px;
+	height: 80px;
+}
+
+#banner .contenedor {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-335%) translateY(-115%);
+	color: #fff;
+}
+
+#banner1 {
+	margin-top: 50px;
+}
+
+#banner1 img {
+	width: 100%;
+	height: 100px;
+
+}
+
+#banner1 h2 {
+	color: white;
+	transform: translateY(-190%);
+	font-size: 30px;
+}
+
+#banner span {
+	border-color: #000;
+}
+
+#banner h2 {	
+	transform: translateX(-300%) translateY(45%);
+	-webkit-writing-mode: vertical-lr;
+	font-size: 20px;
+}
+
+#banner a {
+	border-radius: 5px;
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+	border: 2px solid #fff;
+}
+
+#banner a:hover {
+	background: rgba(51,51,51,0.3);
+}
+
+#info {
+	background-image: url("../img/section.jpg");
+	background-repeat: no-repeat;
+	background-size: 1360px 400px;
+	background-attachment: fixed;
+}
+
+#info {
+	color: #fff;
+	text-align: center;
+}
+
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-muebles {
+	margin: 20px;
+}
+
+.info-muebles img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+
+footer {
+	background: #CBC6C6;
+}
+
+footer img {
+	padding: 10px;
+}
+
+footer ul a {
+	color: #000;
+}
+
+footer p {
+	font-size: 15px;
+}
+
+.form-group {
+	width: 65%;
+}
+
+.form-control {
+	border-radius: 100px;
+}
+
+.fg1
+{
+	transform: translateX(10%);
+	width: 600px;
+}
+
+.fc1
+{
+	border-radius: 10px;
+}
+
+.Enviar {
+	width: 350px;
+	height: 40px;	
+	background: #000;
+	color: #ffff;
+	border-radius: 100px;
+	transform: translateY(20%);
+	cursor: pointer;
+	border: 2px solid #FFF;
+}
+
+.Enviar:hover {
+	color: #fff;
+	background-color: #FF0000;
+}
+
+#sticky-footer {
+	background: #A01313;
+	color: #fff;
+  	flex-shrink: none;
+}
+
+.Logo {
+	border-radius: 10px;
+	width: 120px;
+	height: 45px;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	color: #fff;
+}
+
+h2 {
+	text-align: center;
+}
+
+.card-deck{
+	height: 80%;	
+}
+
+.card {
+	height: 10%;
+}
+
+.card img {
+	width: 100%;
+	height: 200px;
+}
+
+.divc {
+	padding: 40px;
+}
+
+.divs {
+	padding: 1px;
+}
+
+.redesp {
+	background: #A01313;
+	color: #fff;
+	text-align: center;
+}
+
+.card-titlem {
+   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000,
+    -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.bb {
+	  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000,
+    -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.container-media {
+	margin: 20px;
+	padding: 0px;
+}
+
+.dp 
+{
+	width: 750px;
+	height: 224px;
+}
+
+.infor
+{
+	text-align: left;
+}
+
+.btnca
+{
+	transform: translateX(90%);
+}
+
+.esp
+{
+	margin: 5px;
+}
+
+.cant {
+	width: 90px;
+}
+
+.sub{
+	border: 2px solid #000;
+}
+
+.nav-link
+{
+	color: black;
+	font-size: 20px;
+}
+
+.usu 
+{
+	background: #BAAFAF;
+	opacity: 90%;
+}
+
+.cusu
+{
+	height: 100%;
+}
+
+.cusu i {
+	font-size: 45px;
+	transform: translateX(600%);
+}
+
+.cusu2 i {
+	font-size: 45px;
+	transform: translateX(660%);
+}
+
+.cusu3 i
+{	
+	font-size: 45px;
+	transform: translateX(950%);
+}
+
+.cusu h5
+{
+	text-align: center;
+}
+
+.userr
+{
+	font-size: 17px;
+	margin-right: 10px;
+}
+
+.cusu3
+{
+	font-size: 10px;
+}
+
+.datosp
+{
+	text-align: right;
+}
+
+.saves
+{
+	width: 150px;
+	transform: translateX(130%);
+}
+
+.tt 
+{
+	text-align: center;
+}
+
+.t
+{
+	text-align: left;
+}
+
+.inff
+{
+	color: black;
+}
+
+.inff:hover
+{
+	color: black;
+}
+
+.qa
+{
+	border: 1px solid black;
+}
+
+.aa
+{
+	width: 200px;
+	transform: translateX(30%);
+}
+
+.xxx
+{
+	width: 42%;
+}
+
+.custom-file1
+{
+	transform: translateX(54%) translateY(-70%);
+}
+
+.axs
+{
+	transform: translateY(30%) translateX(4%);
+}
+
+#Estrellas
+{
+	background-color: black;
+}
+
+.serv
+{
+	width: 600px;
+	transform: translateX(10%);
+}
+
+.sv
+{
+	transform: translateX(340%);
+	width: 150px;
+}
+
+.sss
+{
+	padding: 10px;
+}
+

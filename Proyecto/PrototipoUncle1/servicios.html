@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/pushbar.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/s.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/starrr.css" rel=stylesheet/>
+    <script src="js/starrr.js"></script>
+    <script src="js/modernizr.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<title>Diseño y Confort</title>
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">		
+				<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+					<button class="btn-menu" data-pushbar-target="pushbar-menu"><i class="fas fa-bars"></i></button>	
+						<div data-pushbar-id="pushbar-menu" class="pushbar from_left pushbar-menu">
+							<h4>Diseño y Confort</h4>
+							<div class="btn-cerrar">
+								<button data-pushbar-close>
+									<i class="fas fa-times"></i>
+								</button>
+							</div>
+							<nav class="menu">
+								<a href="index.html">Inicio</a>
+								<a href="productos.html">Productos</a>
+								<a href="ofertas.html">Ofertas especiales</a>
+								<a href="servicio.html">Servicios</a>
+								<a href="contacto.html">Contacto</a>
+							</nav>
+						</div>
+				  <a class="navbar-brand" href="index.html"><img class="Logo" src="img/logo2.png" alt=""></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				    <ul class="navbar-nav ml-auto">
+					 <div class="userr">
+					 	<div class="row">
+					 	<div class="col-1">
+					 		<i class="fas fa-bell"></i>
+					 	</div>
+					 	<div class="col-1">
+					 		<div class="btn-group dropleft">
+							  <i class="fas fa-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  </i>
+							  <div class="dropdown-menu">
+							    <a class="dropdown-item" href="datos.html">Mi cuenta</a><hr>
+							    <a class="dropdown-item" href="index.html">Salir</a>
+							  </div>
+							</div>
+					 	</div>
+					 	<div class="col-1">
+					 		<i class="fas fa-shopping-cart"></i>
+					 	</div>					 		
+					 	</div>
+					 </div>
+				   </div>
+			</div>
+		</div>
+	</div>
+ <!-- End-nav -->
+	<br>
+	<br>
+	<br>
+		<a href="index.html"><h3 class="usu">Inicio</h3></a>
+		<u><h3>SERVICIOS</h3></u>
+	<br>
+	<div class="qa">
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-2 col-md-2 col-xl-2 col-sm-12">
+				<img src="img/logo.jpg">
+			</div>
+			<div class="col-2 col-md-2 col-xl-2 col-sm-12">
+				<h6>Nombre del servicio</h6>
+				<small>$0.000.000</small>
+			</div>
+			<div class="col-1 col-md-1 col-xl-1 col-sm-12">
+				<p>ESTADO</p>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+				</div>
+			</div>
+			<div class="col-7 col-md-7 col-xl-7 col-sm-12">
+				<a href="detalleproduto.html">
+					<input class="btn btn-outline-dark" type="submit" value="VER DETALLE">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="VER FACTURA">
+				</a>
+				<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
+					  ADJ.COMPROBANTE
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Adjuntar comprobante</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+							<div class="btn-group">
+								<h5>Tipo de comprobante</h5>
+							  <button type="button" class="btn btn-danger dropdown-toggle aa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Seleccionar
+							  </button>
+							  <div class="dropdown-menu">
+							    <a class="dropdown-item" href="#">Pago</a>
+							    <a class="dropdown-item" href="#">Abono</a>
+							  </div>
+							</div>
+					      </div>
+					      <h5 class="axs">Adjuntar</h5>
+					      	  <div class="custom-file1">
+								  <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+								  <label class="custom-file-label xxx" for="customFileLang">Seleccionar Archivo</label>
+								</div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+					        <button type="button" class="btn btn-outline-danger">Guardar</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal1">
+					  CALIFICAR
+					</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal1" tabindex="-2" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel1">Calificar</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+				            <hr/>
+				            Calificar: <span id="Estrellas"></span>
+				            <hr/>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+					        <button type="button" class="btn btn-outline-danger">Guardar</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-2 col-md-2 col-xl-2 col-sm-12">
+				<img src="img/logo.jpg">
+			</div>
+			<div class="col-2 col-md-2 col-xl-2 col-sm-12">
+				<h6>Nombre del servicio</h6>
+				<small>$0.000.000</small>
+			</div>
+			<div class="col-1 col-md-1 col-xl-1 col-sm-12">
+				<p>ESTADO</p>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">70%</div>
+				</div>
+			</div>
+			<div class="col-7 col-md-7 col-xl-7 col-sm-12">
+				<a href="detalleproduto.html">
+					<input class="btn btn-outline-dark" type="submit" value="VER DETALLE">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="VER FACTURA">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="ADJ. COMPROBANTE">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="CALIFICAR">
+				</a>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-2 col-md-2 col-xl-2 col-sm-12">
+				<img src="img/logo.jpg">
+			</div>
+			<div class="col-2 col-md-2 col-xl-2 col-sm-12">
+				<h6>Nombre del servicio</h6>
+				<small>$0.000.000</small>
+			</div>
+			<div class="col-1 col-md-1 col-xl-1 col-sm-12">
+				<p>ESTADO</p>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="col-7 col-md-7 col-xl-7 col-sm-12">
+				<a href="detalleproduto.html">
+					<input class="btn btn-outline-dark" type="submit" value="VER DETALLE">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="VER FACTURA">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="ADJ. COMPROBANTE">
+				</a>
+				<a href="detalleproduto.html"> 
+					<input class="btn btn-outline-dark"  type="submit" value="CALIFICAR">
+				</a>
+			</div>
+		</div>
+	</div>
+	<br>
+</div>
+			<a href="datos.html" class="inff"><i class="fas fa-angle-double-left">  Volver</i></a>
+	<br>
+		<script>
+   $('#Estrellas').starrr({
+       rating:5,
+       change:function(e,valor){
+           alert(valor);
+           
+       }  
+   });
+    </script>
+</body>
+	<div class="redesp">
+		Síguenos		
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+	</div>
+	<footer>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-2">
+				<img class="logito" src="img/logo.png">
+			</div>
+			<div class="col-2">
+				<ul>
+					<a href="">Entregas</a><br>
+					<a href="">Promociones Vigentes</a><br>
+					<a href="">Ventas</a><br>
+					<a href="">Contáctanos</a><br>
+				</ul>
+			</div>
+			<div class="col-2">
+				<ul>
+					<a href="">Quiénes somos</a><br>
+					<a href="">Blog</a><br>
+					<a href="">Innovación</a><br>
+					<a href="">Ni puta idea xd</a><br>
+				</ul>
+			</div>
+			<div class="col-6">
+				<h5>Registrate</h5>
+				<p>Sé el primero en recibir noticias de ofertas y promociones especiales.</p>
+				<form>
+				  <div class="form-group">
+				    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="E-mail">
+				    <button type="submit" class="Enviar">SUSCRÍBETE</button>
+				  </div>				      
+			</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="sticky-footer">
+	    <div class="container">
+	      <small>Copyright &copy; Muebleria Diseño y Confort.Todos los derechos reservados. Diseñado por Las tigrillas</small>
+	    </div>
+	  </div>
+</footer>
+
+</html>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/pushbar.js"></script>
+	<script src="js/estilos.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.slicebox.js"></script>
+	<script src="js/script.js"></script>
